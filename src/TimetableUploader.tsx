@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Upload, FileText, Download, Loader2, CheckCircle2, X } from 'lucide-react';
+import { Upload, FileText, Loader2, CheckCircle2, X } from 'lucide-react';
 
 const TimetableUploader: React.FC = () => {
   const [step, setStep] = useState<number>(1);
